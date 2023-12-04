@@ -5,7 +5,7 @@ const AddProduct = () => {
             <form action="" className={styles.form}>
                 <input type="text" placeholder="title" name="title" required />
                 <select name="cat" id="cat">
-                    <option value="general">Select a item</option>
+                    <option value="general">Choose a item</option>
                     <option value="phone">phone</option>
                     <option value="kitchen">kitchen</option>
                     <option value="Computer">Computer</option>
