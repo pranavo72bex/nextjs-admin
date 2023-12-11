@@ -60,7 +60,7 @@ const UsersPage = async () => {
                             <td>{user.isActive ? "Active" : "Away"}</td>
                             <td>
                                 <div className={styles.buttons}>
-                                    <Link href={`/dasboard/users/${user.id}`}>
+                                    <Link href={`/dashboard/users/${user.id}`}>
                                         <button className={`${styles.button} ${styles.view}`}>
                                             View
                                         </button>
