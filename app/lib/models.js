@@ -8,7 +8,7 @@ const userSchema = new mongoose.Schema({
         min: 3,
         max: 20,
     },
-    emmail: {
+    email: {
         type: String,
         required: true,
         unique: true,
@@ -22,11 +22,11 @@ const userSchema = new mongoose.Schema({
         type: String,
     },
     isAdmin: {
-        type: bool,
+        type: Boolean,
         default: false
     },
     isActive: {
-        type: bool,
+        type: Boolean,
         default: true
     },
     phone: {
@@ -75,4 +75,4 @@ const productSchema = new mongoose.Schema({
 )
 
 export const User = mongoose.models.User || mongoose.model("User", userSchema)
-export const Product = mongoose.models.Product || mongoose.model("product", productSchema)
+export const Product = mongoose.models.Product || mongoose.model("Product", productSchema)
