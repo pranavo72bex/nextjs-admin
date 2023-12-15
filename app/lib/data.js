@@ -14,7 +14,7 @@ export const fetchUsers = async (q, page) => {
         return { count, users }
     } catch (error) {
         console.log(error)
-        throw new Error("failed to featch user")
+        throw new Error("failed to featch users")
     }
 }
 
@@ -32,5 +32,28 @@ export const fetchProducts = async (q, page) => {
     } catch (error) {
         console.log(error)
         throw new Error("failed to featch user")
+    }
+}
+
+export const fetchUser = async (id) => {
+    console.log(id)
+    try {
+        connectToDB()
+        const user = await User.findById(id)
+        return user
+    } catch (error) {
+        console.log(error)
+        throw new Error("failed to featch user")
+    }
+}
+
+export const fetchProduct = async (id) => {
+    try {
+        connectToDB()
+        const product = await Product.findById(id)
+        return product
+    } catch (error) {
+        console.log(error)
+        throw new Error("failed to featch product")
     }
 }
