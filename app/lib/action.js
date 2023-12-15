@@ -43,8 +43,8 @@ export const updatUser = async (FormData) => {
         console.log(error)
         throw new Error("fail to update user!")
     }
-    redirect("/dashboard/users")
     revalidatePath("/dashboard/users")
+    redirect("/dashboard/users")
 }
 
 
