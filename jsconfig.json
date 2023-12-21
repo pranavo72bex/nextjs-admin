@@ -1,7 +1,14 @@
 {
   "compilerOptions": {
+    "jsx": "react-jsx",
     "paths": {
-      "@/*": ["./*"]
+      "@/*": [
+        "./*"
+      ]
     }
-  }
+  },
+  "include": [
+    "**/*",
+    "/Users/pranav.jha/Downloads/nextadmin/app/page.jsx"
+  ]
 }
