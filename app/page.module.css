@@ -1,0 +1,20 @@
+.isloading {
+    margin-top: 4;
+    min-height: h-screen-screen;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.iserror {
+    margin-top: 4;
+    min-height: h-screen-screen;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.todos {
+    display: flex;
+    gap: 2;
+}
