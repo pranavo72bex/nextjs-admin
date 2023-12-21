@@ -1,5 +1,5 @@
 .isloading {
-    margin-top: 4;
+    margin-top: 4px;
     min-height: h-screen-screen;
     display: flex;
     flex-direction: column;
@@ -7,7 +7,7 @@
 }
 
 .iserror {
-    margin-top: 4;
+    margin-top: 4px;
     min-height: h-screen-screen;
     display: flex;
     flex-direction: column;
