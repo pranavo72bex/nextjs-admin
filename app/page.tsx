@@ -10,7 +10,7 @@ interface Todo {
 }
 export default function Home() {
   const { data: todoData, isLoading, isError, isSuccess } = useQuery<Todo[]>({ queryKey: ["todos"], queryFn: () => fetch("https://jsonplaceholder.typicode.com/todos").then(res => res.json()) })
-  const { data: user, } = useQuery<Todo[]>({ queryKey: ["users"], queryFn: () => fetch("https://jsonplaceholder.typicode.com/users").then(res => res.json()) })
+  const { data: user, } = useQuery<Todo[]>({ queryKey: ["users"], queryFn: () => fetch("https://jsonplaceholder.typicode.com/users").then(res => res.json()), enabled: !!todoData })
 
   if (isLoading) return <main><div className={style.isloading}>Looding...</div></main>
   if (isError) return <main><div className={style.iserror}>Error happened </div></main>
