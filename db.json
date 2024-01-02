@@ -1,0 +1,12 @@
+{
+  "todos": [
+    {
+      "id": 1,
+      "title": "Learn React"
+    },
+    {
+      "id": "2024-01-02T04:10:32.743Z",
+      "title": "Do Laundry"
+    }
+  ]
+}
