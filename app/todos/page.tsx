@@ -53,7 +53,7 @@ const Todos = () => {
 
             <div className={style.todolist}>
                 {
-                    todoData?.map((todo) => {
+                    todoData?.map((todo: TodoType) => {
                         return (
                             <div className={style.todo} key={todo.id}>
                                 <div className={style.todoTitle}>{todo.title}</div>
@@ -67,5 +67,10 @@ const Todos = () => {
         </div>
     )
 }
+type TodoType = {
+    id: string;
+    title: string;
+    date: string;
+};
 
 export default Todos
