@@ -4,5 +4,5 @@
 ![Screenshot 2023-12-05 at 10 36 30](https://github.com/pranavo72bex/nextjs-admin/assets/71395812/285a0b09-409b-4233-af49-0d0981f4c028)
 ![Screenshot 2023-12-05 at 13 41 35](https://github.com/pranavo72bex/nextjs-admin/assets/71395812/0e20e14c-fb06-4ecb-9f55-03932fc78232)
 
-Battle CSS
-![Screenshot 2024-01-03 at 10 22 24](https://github.com/pranavo72bex/nextjs-admin/assets/71395812/df1e6b3c-748f-4e6f-abeb-c98468cda942) <img width="298" alt="Screenshot 2024-01-04 at 09 45 42" src="https://github.com/pranavo72bex/nextjs-admin/assets/71395812/f171e14d-4aae-4f49-9470-16abdb3cc517"> <img width="298" alt="Screenshot 2024-01-04 at 12 44 27" src="https://github.com/pranavo72bex/nextjs-admin/assets/71395812/169db6b1-b354-4688-88e4-2bfcc77f263f">
+
+![Screenshot 2024-01-03 at 10 22 24](https://github.com/pranavo72bex/nextjs-admin/assets/71395812/df1e6b3c-748f-4e6f-abeb-c98468cda942) <img width="298" alt="Screenshot 2024-01-04 at 09 45 42" src="https://github.com/pranavo72bex/nextjs-admin/assets/71395812/f171e14d-4aae-4f49-9470-16abdb3cc517"> <img width="298" alt="Screenshot 2024-01-04 at 12 50 07" src="https://github.com/pranavo72bex/nextjs-admin/assets/71395812/45807257-953d-450b-8ffa-7f532e9905d9">
