@@ -85,3 +85,26 @@
     background-color: #EEB850;
     border-radius: 50%;
 }
+
+.upsanddowns {
+    height: 300px;
+    width: 350px;
+    background-color: #62306D;
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+.commonContainer {
+    height: 100px;
+    width: 100px;
+    background-color: #F7EC7D;
+    border-top-right-radius: 50px;
+    border-top-left-radius: 50px;
+}
+
+.upsidedownrightcontainer,
+.upsidedownleftcontainer {
+    transform: rotate(180deg);
+    margin-top: 100px;
+}
