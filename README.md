@@ -5,6 +5,4 @@
 ![Screenshot 2023-12-05 at 13 41 35](https://github.com/pranavo72bex/nextjs-admin/assets/71395812/0e20e14c-fb06-4ecb-9f55-03932fc78232)
 
 Battle CSS
-![Screenshot 2024-01-03 at 10 22 24](https://github.com/pranavo72bex/nextjs-admin/assets/71395812/df1e6b3c-748f-4e6f-abeb-c98468cda942)
-
-<img width="298" alt="Screenshot 2024-01-04 at 09 45 42" src="https://github.com/pranavo72bex/nextjs-admin/assets/71395812/f171e14d-4aae-4f49-9470-16abdb3cc517">
+![Screenshot 2024-01-03 at 10 22 24](https://github.com/pranavo72bex/nextjs-admin/assets/71395812/df1e6b3c-748f-4e6f-abeb-c98468cda942) <img width="298" alt="Screenshot 2024-01-04 at 09 45 42" src="https://github.com/pranavo72bex/nextjs-admin/assets/71395812/f171e14d-4aae-4f49-9470-16abdb3cc517">
