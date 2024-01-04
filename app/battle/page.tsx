@@ -17,6 +17,7 @@ const CSSBattlePage = () => {
                     <div className={styles.yellowBox}></div>
                 </div>
             </div>
+            {/* push button */}
             <div className={styles.pushbuttonbackground}>
                 <div className={styles.pushbuttonrectangle}>
                     <div className={styles.pushbuttoncircle}>
@@ -28,11 +29,20 @@ const CSSBattlePage = () => {
                 </div>
 
             </div>
+            {/*upsanddowns*/}
             <div className={styles.upsanddowns}>
-                <div className={`${styles.commonContainer} ${styles.upsidedownrightcontainer}`}></div>
-                <div className={styles.commonContainer}></div>
-                <div className={`${styles.commonContainer} ${styles.upsidedownleftcontainer}`}></div>
+                <div className={`${styles.commoncontainer} ${styles.upsidedownrightcontainer}`}></div>
+                <div className={styles.commoncontainer}></div>
+                <div className={`${styles.commoncontainer} ${styles.upsidedownleftcontainer}`}></div>
             </div>
+            {/* Acid Rain */}
+            <div className={styles.acidrainbackground}>
+
+                <div className={styles.thirdacidraincontainer}></div>
+                <div className={styles.secondacidraincontainer}></div>
+                <div className={styles.firstacidraincontainer}></div>
+            </div>
+
         </div>
     );
 }
