@@ -150,3 +150,37 @@
     top: 60px;
     left: 145px;
 }
+
+
+.missingslicebackground {
+    height: 300px;
+    width: 350px;
+    background-color: #E3516E;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.commonslicecontainer {
+    height: 100px;
+    width: 100px;
+}
+
+.slicecontainerone {
+    background-color: #51B5A9;
+    border-radius: 100% 0% 0%;
+}
+
+.slicecontainertwo {
+    background-color: #F7F3D7;
+    border-radius: 0% 0% 0% 100%;
+}
+
+.slicecontainerthree {
+    background-color: #FADE8B;
+    border-radius: 0% 100% 0% 0%;
+}
+
+.slicecontainerfour {
+    background-color: #E3516E;
+}

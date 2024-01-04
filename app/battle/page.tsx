@@ -42,7 +42,17 @@ const CSSBattlePage = () => {
                 <div className={styles.secondacidraincontainer}></div>
                 <div className={styles.firstacidraincontainer}></div>
             </div>
-
+            {/* Missing Slice */}
+            <div className={styles.missingslicebackground}>
+                <div>
+                    <div className={`${styles.commonslicecontainer} ${styles.slicecontainerone}`}></div>
+                    <div className={`${styles.commonslicecontainer} ${styles.slicecontainertwo}`}></div>
+                </div>
+                <div>
+                    <div className={`${styles.commonslicecontainer} ${styles.slicecontainerthree}`}></div>
+                    <div className={`${styles.commonslicecontainer} ${styles.slicecontainerfour}`}></div>
+                </div>
+            </div>
         </div>
     );
 }
