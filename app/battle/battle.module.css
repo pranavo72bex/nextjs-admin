@@ -1,0 +1,40 @@
+.battleground {
+    height: 100%;
+    width: 100%;
+    background-color: white;
+}
+
+.simplesqure1 {
+    height: 300px;
+    width: 300px;
+    background-color: #5D3A3A;
+}
+
+.simplesqure2 {
+    height: 150px;
+    width: 150px;
+    background-color: #B5E0BA;
+}
+
+.carrom {
+    height: 300px;
+    width: 300px;
+    display: flex;
+    padding: 50px;
+    justify-content: space-between;
+    background-color: #62374E;
+}
+
+.yellowBox {
+    height: 50px;
+    width: 50px;
+    background-color: #FDC57B;
+
+}
+
+
+.Row {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
