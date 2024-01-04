@@ -53,6 +53,13 @@ const CSSBattlePage = () => {
                     <div className={`${styles.commonslicecontainer} ${styles.slicecontainerfour}`}></div>
                 </div>
             </div>
+
+            {/* leafy traii */}
+            <div className={styles.leafytrailbackground}>
+                <div className={`${styles.leafytrailcontainerback} ${styles.leafytrailcontainer}`}></div>
+                <div className={`${styles.leafytrailcontainercenter} ${styles.leafytrailcontainer}`}></div>
+                <div className={`${styles.leafytrailcontainerfront} ${styles.leafytrailcontainer}`}></div>
+            </div>
         </div>
     );
 }

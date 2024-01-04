@@ -184,3 +184,39 @@
 .slicecontainerfour {
     background-color: #E3516E;
 }
+
+.leafytrailbackground {
+    height: 300px;
+    width: 300px;
+    background-color: #0B2429;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.leafytrailcontainer {
+    height: 120px;
+    width: 120px;
+    border-radius: 70% 0%;
+}
+
+.leafytrailcontainercenter {
+    background-color: #998235;
+    position: absolute;
+    top: 100px;
+    left: 60px
+}
+
+.leafytrailcontainerfront {
+    background-color: #F3AC3C;
+    position: absolute;
+    top: 100px
+}
+
+.leafytrailcontainerback {
+    background-color: #1A4341;
+    position: absolute;
+    top: 100px;
+    left: 30px
+}
