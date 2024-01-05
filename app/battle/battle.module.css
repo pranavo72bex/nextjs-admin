@@ -264,3 +264,49 @@
     background-color: #6592CF;
     border-radius: 0px 0px 10px 10px;
 }
+
+
+
+.tesseractbackground {
+    height: 300px;
+    width: 400px;
+    background-color: #222730;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tesseractreactangle {
+    height: 150px;
+    width: 450px;
+    background-color: #4CAAB3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tesseractbigsqure {
+    height: 250px;
+    width: 250px;
+    background-color: #222730;
+    transform: rotate(45deg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tesseractsmallsqure {
+    height: 150px;
+    width: 150px;
+    background-color: #4CAAB3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tesseractcircle {
+    height: 50px;
+    width: 50px;
+    background-color: #222730;
+    border-radius: 50%;
+}

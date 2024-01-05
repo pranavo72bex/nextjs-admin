@@ -76,6 +76,18 @@ const CSSBattlePage = () => {
                 <div className={styles.forkbase}> </div>
                 <div className={styles.forkhandle}></div>
             </div>
+
+            {/* Tesseract */}
+            <div className={styles.tesseractbackground}>
+                <div className={styles.tesseractreactangle}>
+                    <div className={styles.tesseractbigsqure}>
+                        <div className={styles.tesseractsmallsqure}>
+                            <div className={styles.tesseractcircle}>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     );
 }
