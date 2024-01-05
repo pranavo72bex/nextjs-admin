@@ -60,6 +60,22 @@ const CSSBattlePage = () => {
                 <div className={`${styles.leafytrailcontainercenter} ${styles.leafytrailcontainer}`}></div>
                 <div className={`${styles.leafytrailcontainerfront} ${styles.leafytrailcontainer}`}></div>
             </div>
+
+
+            {/* Forking Crazy */}
+            <div className={styles.forkingcrazybackground}>
+                <div className={styles.forkpoint}>
+                    <div className={styles.forkslotfill}></div>
+                    <div className={styles.forkslotempty}></div>
+                    <div className={styles.forkslotfill}></div>
+                    <div className={styles.forkslotempty}></div>
+                    <div className={styles.forkslotfill}></div>
+                    <div className={styles.forkslotempty}></div>
+                    <div className={styles.forkslotfill}></div>
+                </div>
+                <div className={styles.forkbase}> </div>
+                <div className={styles.forkhandle}></div>
+            </div>
         </div>
     );
 }
