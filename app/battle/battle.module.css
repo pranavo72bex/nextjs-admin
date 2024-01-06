@@ -310,3 +310,64 @@
     background-color: #222730;
     border-radius: 50%;
 }
+
+.cloakedspirtsbackground {
+    height: 300px;
+    width: 400px;
+    background-color: #62306D;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.cloakedspirtsfirst {
+    height: 100px;
+    width: 100px;
+    background-color: #F7EC7D;
+    position: relative;
+}
+
+.cloakedspirtssecond {
+    height: 200px;
+    width: 100px;
+    background-color: #F7EC7D;
+    position: relative;
+}
+
+.cloakedspirtsbrowncircle {
+    height: 100px;
+    width: 100px;
+    background-color: #AA445F;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cloakedspirtsorangecircle {
+    height: 50px;
+    width: 50px;
+    background-color: #E38F66;
+    border-radius: 50%;
+}
+
+.cloakedspirtscentercircle {
+    height: 100px;
+    width: 100px;
+    background-color: #E38F66;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cloakedspirtsorangecentercircle {
+    height: 50px;
+    width: 50px;
+    background-color: #AA445F;
+    border-radius: 50%;
+}

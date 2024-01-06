@@ -88,6 +88,25 @@ const CSSBattlePage = () => {
                     </div>
                 </div>
             </div>
+
+            {/* Cloaked Sprits */}
+            <div className={styles.cloakedspirtsbackground}>
+                <div className={styles.cloakedspirtsfirst}>
+                    <div className={styles.cloakedspirtsbrowncircle}>
+                        <div className={styles.cloakedspirtsorangecircle}></div>
+                    </div>
+                </div>
+                <div className={styles.cloakedspirtssecond}>
+                    <div className={styles.cloakedspirtscentercircle}>
+                        <div className={styles.cloakedspirtsorangecentercircle}></div>
+                    </div>
+                </div>
+                <div className={styles.cloakedspirtsfirst}>
+                    <div className={styles.cloakedspirtsbrowncircle}>
+                        <div className={styles.cloakedspirtsorangecircle}></div>
+                    </div>
+                </div>
+            </div>
         </div>
     );
 }
