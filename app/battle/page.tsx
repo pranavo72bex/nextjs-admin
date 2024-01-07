@@ -107,6 +107,18 @@ const CSSBattlePage = () => {
                     </div>
                 </div>
             </div>
+            {/* Eye of Sauron */}
+            <div className={styles.eyeofsauronbackground}>
+                <div className={`${styles.eyeofsauronsidering} ${styles.eyeofsauronsideringleft}`}></div>
+                <div className={styles.eyeofsauroncircleouterring}>
+                    <div className={styles.eyeofsauronblackcirclering}>
+                        <div className={styles.eyeofsauronredcirclering}></div>
+                    </div>
+                </div>
+                <div className={`${styles.eyeofsauronsidering} ${styles.eyeofsauronsideringright}`}>
+                </div>
+            </div>
+
         </div>
     );
 }

@@ -371,3 +371,64 @@
     background-color: #AA445F;
     border-radius: 50%;
 }
+
+.eyeofsauronbackground {
+    height: 300px;
+    width: 400px;
+    background-color: #191210;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.eyeofsauroncircleouterring {
+    height: 150px;
+    width: 150px;
+    background-color: #ECA03D;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.eyeofsauronblackcirclering {
+    height: 100px;
+    width: 100px;
+    background-color: #191210;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.eyeofsauronredcirclering {
+    height: 50px;
+    width: 50px;
+    background-color: #84271C;
+    border-radius: 50%;
+}
+
+
+.eyeofsauronsidering {
+    height: 50px;
+    width: 100px;
+    border: 20px solid #ECA03D;
+    border-bottom-left-radius: 80px;
+    border-bottom-right-radius: 80px;
+    border-top: none;
+    position: absolute;
+    bottom: 160px;
+    right: 50px;
+}
+
+.eyeofsauronsideringright {
+    transform: rotate(180deg);
+    bottom: 160px;
+    right: 50px;
+}
+
+.eyeofsauronsideringleft {
+    bottom: 100px;
+    left: 50px;
+}
