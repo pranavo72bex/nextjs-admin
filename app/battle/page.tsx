@@ -130,6 +130,13 @@ const CSSBattlePage = () => {
             <div className={styles.totallytrianglebackground}>
                 <div className={styles.totallytrianglecontainer}></div>
             </div>
+            {/* Web Maker Logo */}
+            <div className={styles.webmakerlogobackground}>
+                <div className={`${styles.webmakerlogotriangle} ${styles.backlefttriangle}`}></div>
+                <div className={`${styles.webmakerlogotriangle} ${styles.frontlefttriangle}`}></div>
+                <div className={`${styles.webmakerlogotriangle} ${styles.backrighttriangle}`}></div>
+                <div className={`${styles.webmakerlogotriangle} ${styles.frontrighttriangle}`}></div>
+            </div>
         </div>
     );
 }

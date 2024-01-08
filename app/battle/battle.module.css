@@ -499,3 +499,48 @@
     border-bottom: 150px solid transparent;
     border-left: 150px solid #F3AC3C;
 }
+
+.webmakerlogobackground {
+    height: 300px;
+    width: 400px;
+    background-color: #F2F2B6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.webmakerlogotriangle {
+    height: 0px;
+    width: 0px;
+    transform: rotate(90deg);
+    position: absolute;
+    border-bottom: 70px solid transparent;
+    border-top: 70px solid transparent;
+}
+
+.frontlefttriangle {
+    position: absolute;
+    left: 100px;
+    border-left: 100px solid #FF6D00;
+}
+
+.backlefttriangle {
+    position: absolute;
+    left: 117px;
+    border-left: 100px solid #FD4602;
+}
+
+.backrighttriangle {
+    position: absolute;
+    right: 80px;
+    rotate: 180deg;
+    border-left: 100px solid #FF6D00;
+}
+
+.frontrighttriangle {
+    position: absolute;
+    right: 95px;
+    rotate: 180deg;
+    border-left: 100px solid #FD4602;
+}
