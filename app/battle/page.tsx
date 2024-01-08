@@ -126,6 +126,10 @@ const CSSBattlePage = () => {
                 <div className={`${styles.wigglemoustachecontainer} ${styles.wigglemoustachecontainerright}`}></div>
                 <div className={`${styles.wigglemoustachecontainerend} ${styles.wigglemoustachecontainerendright}`}></div>
             </div>
+            {/* Totally Triangle */}
+            <div className={styles.totallytrianglebackground}>
+                <div className={styles.totallytrianglecontainer}></div>
+            </div>
         </div>
     );
 }
