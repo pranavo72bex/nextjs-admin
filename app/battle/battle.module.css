@@ -432,3 +432,58 @@
     bottom: 100px;
     left: 50px;
 }
+
+.wigglemoustachebackground {
+    height: 300px;
+    width: 400px;
+    background-color: #F5D6B4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.wigglemoustachecontainer {
+    height: 50px;
+    width: 90px;
+    border: 20px solid #D86F45;
+    border-bottom-left-radius: 80px;
+    border-bottom-right-radius: 80px;
+    border-top: none;
+    position: absolute;
+}
+
+.wigglemoustachecontainercenter {
+    transform: rotate(180deg);
+    position: absolute;
+    top: 80px;
+}
+
+.wigglemoustachecontainerleft {
+    position: absolute;
+    left: 85px;
+}
+
+.wigglemoustachecontainerright {
+    position: absolute;
+    right: 85px
+}
+
+.wigglemoustachecontainerend {
+    height: 20px;
+    width: 20px;
+    background-color: #D86F45;
+    border-radius: 50%;
+    position: absolute;
+}
+
+.wigglemoustachecontainerendleft {
+    left: 85px;
+    bottom: 165px;
+}
+
+
+.wigglemoustachecontainerendright {
+    right: 85px;
+    bottom: 165px;
+}
