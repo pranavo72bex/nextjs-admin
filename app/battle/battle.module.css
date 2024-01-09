@@ -582,3 +582,51 @@
     border-bottom-left-radius: 100px;
     rotate: 45deg;
 }
+
+.eyeofthetigerbackground {
+    height: 300px;
+    width: 400px;
+    background-color: #0B2429;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.eyeofthetigercontainer {
+    height: 220px;
+    width: 220px;
+    background-color: #998235;
+    border-top-right-radius: 100px;
+    border-bottom-left-radius: 100px;
+    rotate: -45deg;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.eyeofthetigercontainerring {
+    height: 200px;
+    width: 200px;
+    background-color: #0B2429;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.eyeofthetigercontainerinnercircleyellow {
+    height: 150px;
+    width: 150px;
+    background-color: #F3AC3C;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.eyeofthetigercontainerinnercircle {
+    height: 60px;
+    width: 60px;
+    background-color: #0B2429;
+    border-radius: 50%;
+}

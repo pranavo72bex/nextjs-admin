@@ -143,6 +143,16 @@ const CSSBattlePage = () => {
                 <div className={`${styles.overlapcircle} ${styles.overlapcircleright}`}></div>
                 <div className={styles.overlapcommoncircle}></div>
             </div>
+            {/* Eye of the tiger */}
+            <div className={styles.eyeofthetigerbackground}>
+                <div className={styles.eyeofthetigercontainer}>
+                    <div className={styles.eyeofthetigercontainerring}>
+                        <div className={styles.eyeofthetigercontainerinnercircleyellow}>
+                            <div className={styles.eyeofthetigercontainerinnercircle}></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     );
 }
