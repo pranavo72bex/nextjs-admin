@@ -544,3 +544,41 @@
     rotate: 180deg;
     border-left: 100px solid #FD4602;
 }
+
+.overlapbackground {
+    height: 300px;
+    width: 400px;
+    background-color: #09042A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.overlapcircle {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    position: absolute;
+}
+
+.overlapcircleleft {
+    background-color: #7B3F61;
+    position: absolute;
+    left: 70px;
+}
+
+.overlapcircleright {
+    background-color: #E78481;
+    right: 70px;
+}
+
+.overlapcommoncircle {
+    height: 72px;
+    width: 72px;
+    background-color: #09042A;
+    z-index: 1;
+    border-top-right-radius: 100px;
+    border-bottom-left-radius: 100px;
+    rotate: 45deg;
+}

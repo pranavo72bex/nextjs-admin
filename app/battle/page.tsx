@@ -137,6 +137,12 @@ const CSSBattlePage = () => {
                 <div className={`${styles.webmakerlogotriangle} ${styles.backrighttriangle}`}></div>
                 <div className={`${styles.webmakerlogotriangle} ${styles.frontrighttriangle}`}></div>
             </div>
+            {/* Overlap */}
+            <div className={styles.overlapbackground}>
+                <div className={`${styles.overlapcircle} ${styles.overlapcircleleft}`}> </div>
+                <div className={`${styles.overlapcircle} ${styles.overlapcircleright}`}></div>
+                <div className={styles.overlapcommoncircle}></div>
+            </div>
         </div>
     );
 }
