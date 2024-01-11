@@ -630,3 +630,66 @@
     background-color: #0B2429;
     border-radius: 50%;
 }
+
+.fidgetspinnerbackground {
+    height: 300px;
+    width: 400px;
+    background-color: #09042A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.fidgetspinnercontainer {
+    height: 100px;
+    width: 100px;
+    background-color: #E78481;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+
+}
+
+.fidgetspinnercontainerleft {
+    left: 70px;
+}
+
+.fidgetspinnercontainerright {
+    right: 70px;
+}
+
+.fidgetspinnerinnercontainer {
+    height: 80px;
+    width: 80px;
+    background-color: #09042A;
+    border-radius: 50%;
+    position: absolute;
+}
+
+.fidgetspinnercentercontainer {
+    height: 60px;
+    width: 80px;
+    background-color: #E78481;
+    position: absolute;
+}
+
+.fidgetspinnersidecontainer {
+    height: 110px;
+    width: 110px;
+    background-color: #F5BB9C;
+    border-radius: 50%;
+    position: absolute;
+    border: 15px solid #09042A;
+    z-index: 1;
+}
+
+.fidgetspinnersidecontainertop {
+    top: 27px;
+}
+
+.fidgetspinnersidecontainerbottom {
+    bottom: 27px;
+}

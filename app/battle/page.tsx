@@ -153,6 +153,18 @@ const CSSBattlePage = () => {
                     </div>
                 </div>
             </div>
+            {/* The fidget spinner*/}
+            <div className={styles.fidgetspinnerbackground}>
+                <div className={`${styles.fidgetspinnersidecontainer} ${styles.fidgetspinnersidecontainertop}`}></div>
+                <div className={`${styles.fidgetspinnersidecontainer} ${styles.fidgetspinnersidecontainerbottom}`}></div>
+                <div className={`${styles.fidgetspinnercontainer} ${styles.fidgetspinnercontainerleft}`}>
+                    <div className={styles.fidgetspinnerinnercontainer}></div>
+                </div>
+                <div className={styles.fidgetspinnercentercontainer}></div>
+                <div className={`${styles.fidgetspinnercontainer} ${styles.fidgetspinnercontainerright}`}>
+                    <div className={styles.fidgetspinnerinnercontainer}></div>
+                </div>
+            </div>
         </div>
     );
 }
