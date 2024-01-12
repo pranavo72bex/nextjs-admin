@@ -165,6 +165,21 @@ const CSSBattlePage = () => {
                     <div className={styles.fidgetspinnerinnercontainer}></div>
                 </div>
             </div>
+            {/* Matrix */}
+            <div className={styles.matrixbackground}>
+                <div className={`${styles.matrixcontainer} ${styles.matrixcontainerorange}`}></div>
+                <div className={`${styles.matrixcontainer} ${styles.matrixcontainercream}`}></div>
+                <div className={`${styles.matrixcontainer} ${styles.matrixcontainerorange}`}></div>
+                <div className={`${styles.matrixcontainer} ${styles.matrixcontainercream}`}></div>
+                <div className={`${styles.matrixcontainer} ${styles.matrixcontainercream}`}></div>
+                <div className={`${styles.matrixcontainer} ${styles.matrixcontainerorange}`}></div>
+                <div className={`${styles.matrixcontainer} ${styles.matrixcontainercream}`}></div>
+                <div className={`${styles.matrixcontainer} ${styles.matrixcontainerorange}`}></div>
+                <div className={`${styles.matrixcontainer} ${styles.matrixcontainerorange}`}></div>
+                <div className={`${styles.matrixcontainer} ${styles.matrixcontainercream}`}></div>
+                <div className={`${styles.matrixcontainer} ${styles.matrixcontainerorange}`}></div>
+                <div className={`${styles.matrixcontainer} ${styles.matrixcontainercream}`}></div>
+            </div>
         </div>
     );
 }

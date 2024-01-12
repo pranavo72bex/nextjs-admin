@@ -693,3 +693,27 @@
 .fidgetspinnersidecontainerbottom {
     bottom: 27px;
 }
+
+
+.matrixbackground {
+    height: 300px;
+    width: 400px;
+    background-color: #5C434C;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.matrixcontainer {
+    height: 80px;
+    width: 80px;
+    margin: 10px;
+    border-top-left-radius: 80px;
+}
+
+.matrixcontainerorange {
+    background-color: #F09462;
+}
+
+.matrixcontainercream {
+    background-color: #F5D6B4;
+}
