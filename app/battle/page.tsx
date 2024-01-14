@@ -180,6 +180,12 @@ const CSSBattlePage = () => {
                 <div className={`${styles.matrixcontainer} ${styles.matrixcontainerorange}`}></div>
                 <div className={`${styles.matrixcontainer} ${styles.matrixcontainercream}`}></div>
             </div>
+            {/* The Cube */}
+            <div className={styles.cubebackground}>
+                <div className={styles.cubecenter}> </div>
+                <div className={styles.cubeleft}></div>
+                <div className={styles.cuberight}></div>
+            </div>
         </div>
     );
 }

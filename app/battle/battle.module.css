@@ -717,3 +717,36 @@
 .matrixcontainercream {
     background-color: #F5D6B4;
 }
+
+.cubebackground {
+    height: 300px;
+    width: 400px;
+    background-color: #0B2429;
+    display: flex;
+    justify-content: center;
+    padding-top: 120px;
+    position: relative;
+}
+
+.cubecenter {
+    height: 100px;
+    width: 100px;
+    background-color: #F3AC3C;
+    rotate: 45deg;
+}
+
+.cubeleft {
+    height: 70px;
+    width: 70px;
+    background-color: #998235;
+    position: absolute;
+    transform: translate(-35px, -55px) skewY(-45deg);
+}
+
+.cuberight {
+    height: 70px;
+    width: 70px;
+    background-color: #1A4341;
+    position: absolute;
+    transform: translate(35px, -55px) skewY(45deg);
+}
